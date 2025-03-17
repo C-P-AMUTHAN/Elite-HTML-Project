@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <title>Checkout - HP & CO</title>
+</head>
+<body>
+
+    <!-- Store Logo -->
+    <table width="100%" border="0">
+        <tr>
+            <td align="center">
+                <img src="images/logo.png" alt="HP & CO Logo" width="150" height="100">
+            </td>
+        </tr>
+    </table>
+
+    <h1 align="center">Checkout</h1>
+
+    <!-- Checkout Form -->
+    <table align="center" border="1" cellpadding="10">
+        <tr>
+            <td>
+                <h2 align="center">Shipping Details</h2>
+                <form action="payment.html">
+                    <table border="0">
+                        <tr>
+                            <td><label for="fullname">Full Name:</label></td>
+                            <td><input type="text" id="fullname" name="fullname" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Phone Number:</label></td>
+                            <td><input type="tel" id="phone" name="phone" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Address:</label></td>
+                            <td><textarea id="address" name="address" rows="3" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">City:</label></td>
+                            <td><input type="text" id="city" name="city" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="state">State:</label></td>
+                            <td><input type="text" id="state" name="state" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="zip">ZIP Code:</label></td>
+                            <td><input type="text" id="zip" name="zip" required></td>
+                        </tr>
+                    </table>
+
+                    <h2 align="center">Payment Method</h2>
+                    <table align="center" border="0">
+                        <tr>
+                            <td><input type="radio" id="credit" name="payment" value="credit" required></td>
+                            <td><label for="credit">Credit/Debit Card</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="cod" name="payment" value="cod" required></td>
+                            <td><label for="cod">Cash on Delivery</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="upi" name="payment" value="upi" required></td>
+                            <td><label for="upi">UPI</label></td>
+                        </tr>
+                    </table>
+
+                    <div align="center">
+                        <button type="submit">Proceed to Payment</button>
+                    </div>
+                </form>
+
+                <!-- Navigation Links -->
+                <p align="center"><a href="cart.html">Back to Cart</a></p>
+                <p align="center"><a href="index.html">Back to Home</a></p>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <p align="center">&copy; 2025 HP & CO. All rights reserved.</p>
+
+</body>
+</html>
