@@ -4,18 +4,6 @@
 
 ---
 
-## 📂 Project Structure
-
-Elite-HTML-Project/
-├── index.html # Home page
-├── products.html # Product listings
-├── product-details.html # Single product detail page
-├── cart.html # Shopping cart layout
-└── assets/
-└── images/ # Product and design images
-
----
-
 ## 🎯 Features
 
 - ✅ Pure **HTML5** based structure (no CSS/JS)
